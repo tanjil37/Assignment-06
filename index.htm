@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-06</title>
+
+    <!-- Google Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- DaisyUi Cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom Css -->
+    <style>
+        .font
+    </style>
+    <!-- Tailwind CSS Configuration -->
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "rgb(139, 195, 74)",
+                        secondary: "rgb(17, 17, 17)",
+                        body: "rgb(248, 246, 243)",
+                        accent: "rgb(106, 151, 57)",
+                        body_neutral: "rgb(51, 51, 51)",
+                    },
+                    fontFamily: {
+                        Lato: "Lato",
+                    },
+                    backgroundImage: {
+                        leaf1: "url('./images/leaf01.png')",
+                        call_to_action: "url('./images/call.jpg')",
+                        bannerImage: "url('./images/testimonials.jpg')",
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+<body class="font-Lato">
+    <header>
+        <nav class="w-11/12 mx-auto ">
+            <div class="navbar bg-base-100">
+
+                <div class="navbar-start">
+                    <a class="flex gap-2"><img src="images/logo.webp" alt="">
+                        <p>Peddy</p>
+                    </a>
+                </div>
+
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="navbar-end">
+                    <img src="https://img.icons8.com/fluent-systems-regular/24/user-male-circle.png" alt="">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="w-11/12 mx-auto text-center">
+
+        <!-- Banner Section Star -->
+        <section id="banner" class="my-6">
+            <h2 class="">Bringing Families Together ❤️‍🔥 </h2>
+            <h1 class="font-black text-7xl my-8">Your Path to Adoption <br> Starts Here</h1>
+            <p class="font-normal text-base mb-8 text-gray-800">It is a long established fact that a reader will be
+                distracted by the
+                readable content of a page when looking <br> at its layout. The point of using Lorem Ipsum is that it
+                has a.
+            </p>
+            <button class="btn">View More</button>
+            <div class="flex justify-center">
+                <img src="images/pet.webp" alt="">
+
+
+            </div>
+
+
+        </section>
+
+        <!-- Banner Section End -->
+
+        <!-- Adopt Section Start -->
+
+        <section class="">
+
+            <div>
+                <h2 class="text-4xl font-black mb-5">Adopt Your Best Friend</h2>
+                <p class="font-normal text-base mb-8 text-gray-800">It is a long established fact that a reader will be
+                    distracted by the readable content of a <br> page when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
+            </div>
+
+            <div id="categories" class="flex justify-center gap-5 py-3">   
+            </div>
+
+            
+
+            <div class="flex justify-between py-5">
+                <p class="text-xl">Best Deal For Your</p>
+                <button class="btn">Sort by Price</button>
+            </div>
+
+
+            <div id="pets" class="w-5/6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">   
+            </div>
+
+
+        </section>
+        <!-- Adopt Section End -->
+
+    </main>
+    <footer></footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
+
+<script src="js/index.js"></script>
+</body>
+
+</html>
